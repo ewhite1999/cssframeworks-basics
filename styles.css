@@ -7,6 +7,15 @@ body {
   text-align: center;
 }
 
+.restrict {
+  max-width: 500px;
+}
+
+.center-main {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 500px) {
   h2 {
     font-size: 1.25rem;
