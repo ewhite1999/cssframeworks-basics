@@ -1,0 +1,23 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.restrict {
+  max-width: 500px;
+}
+
+.center-main {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 1.25rem;
+  }
+}
