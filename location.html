@@ -11,39 +11,54 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
+    <header class="d-flex p-4 justify-content-between">
       <h1 class="">Pizza</h1>
-      <nav>
-        <a href="./index.html" class="">Home</a>
-        <a href="#" class="">Recipe</a>
-        <a href="./location.html" class="">Locations</a>
+      <nav class="navbar d-flex">
+        <a href="./index.html" class="px-3">Home</a>
+        <a href="./recipe.html" class="px-3">Recipe</a>
+        <a href="./location.html" class="px-3">Locations</a>
       </nav>
     </header>
-    <h2>Here's where you can find some world class pizza nearby!</h2>
+    <h2 class="px-4 center">
+      Here's where you can find some world class pizza nearby!
+    </h2>
     <!-- grid container -->
-    <main>
-      <section>
-        <img src="./img/rest1.jpeg" alt="" />
-        <p>Posh's Pizzas</p>
-        <p>357 Stanley Road<br />London<br />EC64 3YG</p>
-      </section>
-      <section>
-        <img src="./img/rest2.jpeg" alt="" />
-        <p>Mahjong's</p>
-        <p>70 Main Road<br />London<br />E04 2PV</p>
-      </section>
-      <section>
-        <img src="./img/rest3.jpeg" alt="" />
-        <p>Outdoor Eats</p>
-        <p>735 Park Road<br />London<br />N05 7FO</p>
-      </section>
-      <section>
-        <img src="./img/rest4.jpeg" alt="" />
-        <p>Old Sam's</p>
-        <p>75 Albert Road<br />London<br />SW45 6RX</p>
-      </section>
+    <main class="container">
+      <div class="row">
+        <section class="card col m-3">
+          <img class="card-img-top mt-2" src="./img/rest1.jpeg" alt="" />
+          <div class="card-body">
+            <p class="fs-3">Posh's Pizzas</p>
+            <p>357 Stanley Road<br />London<br />EC64 3YG</p>
+          </div>
+        </section>
+        <section class="card col m-3">
+          <img class="card-img-top mt-2" src="./img/rest2.jpeg" alt="" />
+          <div class="card-body">
+            <p class="fs-3">Mahjong's</p>
+            <p>70 Main Road<br />London<br />E04 2PV</p>
+          </div>
+        </section>
+      </div>
+      <div class="row">
+        <section class="card col m-3">
+          <img class="card-img-top mt-2" src="./img/rest3.jpeg" alt="" />
+          <div class="card-body">
+            <p class="fs-3">Outdoor Eats</p>
+            <p>735 Park Road<br />London<br />N05 7FO</p>
+          </div>
+        </section>
+        <section class="card col m-3">
+          <img class="card-img-top mt-2" src="./img/rest4.jpeg" alt="" />
+          <div class="card-body">
+            <p class="fs-3">Old Sam's</p>
+            <p>75 Albert Road<br />London<br />SW45 6RX</p>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>

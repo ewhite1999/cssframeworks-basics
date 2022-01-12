@@ -1,0 +1,14 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 1.25rem;
+  }
+}
